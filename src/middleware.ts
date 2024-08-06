@@ -28,7 +28,7 @@ export async function middleware(request: NextRequest) {
 // See "Matching Paths" bfelow to learn more
 export const config = {
     matcher: [
-        '/sign-in',
+        '/sign',
         "/sign-up",
         "/",
         "/dashboard/:path*",
